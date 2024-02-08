@@ -5,38 +5,65 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form {
+  /* Use a light gray background color */
+  background-color: #f0f0f0;
+  /* Add some padding and margin */
+  padding: 20px;
+  margin: 10px auto;
+  /* Set a maximum width and center the form */
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Style the labels */
+label {
+  /* Use a dark gray font color */
+  color: #333333;
+  /* Use a bold font weight */
+  font-weight: bold;
+  /* Add some margin */
+  margin: 10px 0;
 }
 
-.card {
-  padding: 2em;
+/* Style the inputs */
+input {
+  /* Use a white background color */
+  background-color: #ffffff;
+  /* Add some padding and border */
+  padding: 10px;
+  border: 1px solid #cccccc;
+  /* Set a width and height */
+  width: 300px;
+  height: 40px;
 }
 
-.read-the-docs {
-  color: #888;
+/* Style the button */
+button {
+  /* Use a blue background color */
+  background-color: #0077ff;
+  /* Use a white font color */
+  color: #ffffff;
+  /* Use a bold font weight */
+  font-weight: bold;
+  /* Add some padding and border */
+  padding: 10px;
+  border: none;
+  /* Set a width and height */
+  width: 200px;
+  height: 50px;
+  /* Add some margin */
+  margin: 20px 0;
+  /* Add a hover effect */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change the button color on hover */
+button:hover {
+  /* Use a darker blue background color */
+  background-color: #0055cc;
 }
