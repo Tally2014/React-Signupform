@@ -13,7 +13,7 @@ export default function SignupForm() {
   };
 
   const handleSubmit = () => {
-    console.log(firstName, lastName);
+    console.log(formData.firstName, formData.lastName);
   };
 
   return (
