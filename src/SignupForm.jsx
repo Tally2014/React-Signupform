@@ -11,6 +11,7 @@ export default function SignupForm() {
         placeholder="username"
         value={formData.firstName}
         id="firstname"
+        name="firstName"
       />
       <label htmlFor="lastname">Last Name</label>
       <input
@@ -18,6 +19,7 @@ export default function SignupForm() {
         placeholder="username"
         value={formData.lastName}
         id="lastname"
+        name="lastName"
       />
       <button>Submit</button>
     </div>
